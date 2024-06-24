@@ -34,7 +34,6 @@ const aboutSections = [
 const About = () => {
   return (
     <>
-    <Breadcrumbs name={"About Us"}/>
     {
       aboutSections.map((i) => {
         return (

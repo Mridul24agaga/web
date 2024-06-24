@@ -50,7 +50,7 @@ const WeCan = () => {
     <div className="app__container grid grid-cols-1 md:grid-cols-2 gap-y-8">
     <div className="my-auto md:pr-24">
     <h1 className="primary-heading capitalize">What we can <br/>do for <span className="highlight">you?</span></h1>
-    <p className="app__text mt-4">We are perfect in providing solution in certain areas of technology. We have a bunch of services that could speed up your entire business functioning.</p>
+    <p className="app__text mt-4">Lorem</p>
     </div>
 
     <div className="relative h-[500px] p-0">

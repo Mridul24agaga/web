@@ -30,8 +30,8 @@ const Marketing = () => {
       <div className="app__container">
         <div className="max-w-3xl mx-auto mb-16">
           <h2 className="primary-heading text-center">
-            We help you increase sales by improving SEO / PPC / SMO of{" "}
-            <span className="highlight">your brand</span>
+          Lorem{" "}
+            <span className="highlight">Lorem</span>
           </h2>
         </div>
         <motion.div

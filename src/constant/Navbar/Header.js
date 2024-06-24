@@ -96,13 +96,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between p-6 lg:px-8">
         <div className="flex flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <Image
-              className="h-10 w-auto"
-              src={segment === null ? image.webdevWhite : image.logo}
-              alt=""
-              width={250}
-              height={70}
-            />
+           
           </Link>
         </div>
 
@@ -123,62 +117,13 @@ const Header = () => {
           </Link>
           </motion.div>
 
-          <motion.div whileHover={{scale: 1.1}}>
-          <Link
-            href="/about"
-            className={`px-3 py-2 text-sm ${segment === null ? "navlink-white" : "navlink"} ${
-              segment === "about" ? "active" : ""
-            }`}
-            onClick={() => setToggle(false)}
-          >
-            About Us
-          </Link>
-          </motion.div>
 
-          <motion.div whileHover={{scale: 1.1}}>
-          <button
-            className={`px-3 py-2 text-sm flex items-center ${segment === null ? "navlink-white" : "navlink"}`}
-            onClick={() => setToggle(!toggle)}
-            onMouseEnter={handleHover}
-          >
-            Our Services
-            <ChevronDownIcon
-              className={`h-5 w-5 flex-none ${toggle ? "rotate-180" : ""}`}
-              aria-hidden="true"
-            />
-          </button>
-          </motion.div>
+        
 
-          <motion.div whileHover={{scale: 1.1}}>
-          <Link
-            href="/portfolio"
-            className={`px-3 py-2 text-sm ${segment === null ? "navlink-white" : "navlink"} ${
-              segment === "portfolio" ? "active" : ""
-            }`}
-            onClick={() => setToggle(false)}
-          >
-            Portfolio
-          </Link>
-          </motion.div>
-
-          <motion.div whileHover={{scale: 1.1}}>
-          <Link
-            href="/contact"
-            className={`px-3 py-2 text-sm ${segment === null ? "navlink-white" : "navlink"} ${
-              segment === "contact" ? "active" : ""
-            }`}
-            onClick={() => setToggle(false)}
-          >
-            Contact Us
-          </Link>
-          </motion.div>
+          
         </div>
 
-        <div className="flex flex-1 justify-end">
-          <a href="tel:+917906514988" className="navbar-btn shadow-lg">
-            Call Us
-          </a>
-        </div>
+       
       </div>
 
       <div

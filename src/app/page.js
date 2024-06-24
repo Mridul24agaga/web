@@ -12,21 +12,21 @@ import ContactForm from "@/components/ContactPage/ContactForm";
 
 export default function Home() {
   const content = [{
-    heading: "Content Marketing",
-    description: "Content marketing 70% of consumers would learn about products through content medium rather than traditional advertising. It is not easy to get people to spend money on something they have not heard of ever before.",
+    heading: "Lorem",
+    description: "Lorem",
   },{
-    heading: "Digital Marketing",
-    description: "Digital marketing is one of the best techniques used for product and business promotion. We use the above-mentioned ways to promote your product to help you succeed in converting your audience into sales."
+    heading: "Lorem",
+    description: "Lorem"
   },{
-    heading: "Website Development",
-    description: "A website is the essence and the personality of the company and unlike humans this personality can change and can very profitably effect the people around the world."
+    heading: "Lorem",
+    description: "Lorem"
   }]
 
 
 
   const homeSections = [
     {
-      page: <Feature content={content} mainHeading={`We Help You Increase Sales By Improving SEO / PPC / SMO Of <span class="highlight">Your Brand</span>`}/>
+      page: <Feature content={content} mainHeading={`Lorem`}/>
     },    {
       page: <WeAre/>
     },{

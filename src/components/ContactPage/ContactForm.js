@@ -57,12 +57,11 @@ export default function ContactForm({ heading, color }) {
                 </a>
                 <a
                   className="text-sm text-gray-600 text-sbold flex items-center justify-center md:justify-start gap-2"
-                  href="mailto:info@WebDev.com"
+                  href="mailto:WebDinfo@ev.com"
                 >
                   <span className="text-[#EA4335]">
                     <FaEnvelope />
                   </span>{" "}
-                  info@WebDev.com
                 </a>
               </div>
 

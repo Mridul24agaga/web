@@ -8,28 +8,28 @@ const Test = () => {
   const testimonials = [
     {
       id: 1,
-      name: "WebDev.com",
+      name: "Lorem",
       message:
-        "We have a great business relationship with WebDev. We had worked with several other marketing companies in the past who did not deliver results and I am happy to say WebDev is doing that for us. They help bring our vision to life in a way that makes sense",
+        "We have a great business relationship with Lorem. We had worked with several other marketing companies in the past who did not deliver results and I am happy to say Lorem is doing that for us. They help bring our vision to life in a way that makes sense",
       imgUrl: image.client,
     },
     {
       id: 2,
-      name: "WebDev.com",
+      name: "Lorem",
       message:
-        "WebDev has done a wonderful job redesigning our website to take it from plain and functional to amazingly professional. We would highly recommend WebDev to any business that needs a hand improving their internet traffic or their business.",
+        "Lorem has done a wonderful job redesigning our website to take it from plain and functional to amazingly professional. We would highly recommend Lorem to any business that needs a hand improving their internet traffic or their business.",
       imgUrl: image.client,
     },
     {
       id: 3,
-      name: "WebDev.com",
+      name: "Lorem",
       message:
         "Today we work with statistics and more accurate data and realize the digital space is an essential tool for Clinica da Mama to position itself in an increasingly competitive field",
       imgUrl: image.client,
     },
     {
       id: 4,
-      name: "WebDev.com",
+      name: "Lorem",
       message:
         "It really met my requirements. You guys were very patient even though there were delays from my side. The price was competitive and all our requirements were met. If somebody were to ask me for something similar, I would definitely recommend you guys!",
       imgUrl: image.client,

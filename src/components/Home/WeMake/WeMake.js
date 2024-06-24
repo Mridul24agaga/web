@@ -59,10 +59,10 @@ export default function WeMake() {
       <div className="app__container">
         <div className="mx-auto max-w-2xl lg:text-center">
           <p className="mt-2 primary-heading text-gray-900 text-center">
-          We Make Your <span className='highlight'>Seo Service</span> Faster
+          We Make Your <span className='highlight'>Advertising Service</span> Faster
           </p>
           <p className="mt-6 text-lg leading-8 app__text text-center">
-          For more expert opinions about better investments and cute promotional aspects, contact WebDev Private Limited. Because,
+          lorem
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
