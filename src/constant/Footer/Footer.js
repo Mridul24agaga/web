@@ -85,7 +85,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <a href="#" className="shadow-lg rounded-full p-2 bg-white absolute bottom-[5%] right-[5%] animate-[bounce_2s_ease-in-out_infinite]"><ChevronUpIcon className="h-6 w-6"/></a> */}
+      {/* 
+        <a href="#" className="shadow-lg rounded-full p-2 bg-white absolute bottom-[5%] right-[5%] animate-[bounce_2s_ease-in-out_infinite]">
+          <ChevronUpIcon className="h-6 w-6" />
+        </a> 
+      */}
     </footer>
   );
 };
